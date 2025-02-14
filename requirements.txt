@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+sqlalchemy
+python-multipart
+python-jose
+passlib
+bcrypt
+pydantic
+mysqlclient
+python-dotenv
+aiofiles
+PyPDF2
+pymysql
+cryptography
+psycopg2

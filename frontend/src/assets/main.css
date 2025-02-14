@@ -1,0 +1,75 @@
+/* 全局样式 */
+body {
+  background-color: #f5f7fa;
+  color: #2c3e50;
+  line-height: 1.6;
+}
+
+/* 卡片样式 */
+.el-card {
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.el-card__header {
+  padding: 15px 20px;
+  border-bottom: 1px solid #ebeef5;
+  background-color: #fafafa;
+}
+
+/* 表格样式 */
+.el-table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.el-table th {
+  background-color: #fafafa;
+}
+
+/* 按钮样式 */
+.el-button {
+  border-radius: 4px;
+}
+
+.el-button--primary {
+  background-color: #409EFF;
+}
+
+.el-button--success {
+  background-color: #67C23A;
+}
+
+.el-button--danger {
+  background-color: #F56C6C;
+}
+
+/* 标签样式 */
+.el-tag {
+  border-radius: 4px;
+}
+
+/* 分页样式 */
+.el-pagination {
+  padding: 20px 0;
+  text-align: right;
+}
+
+/* 表单样式 */
+.el-form-item__label {
+  font-weight: 500;
+}
+
+.el-input__inner {
+  border-radius: 4px;
+}
+
+/* 上传组件样式 */
+.el-upload-dragger {
+  border: 2px dashed #d9d9d9;
+  border-radius: 8px;
+}
+
+.el-upload-dragger:hover {
+  border-color: #409EFF;
+} 
