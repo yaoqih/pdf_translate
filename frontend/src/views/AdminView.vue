@@ -15,8 +15,12 @@
           <span>文件管理</span>
         </el-menu-item>
         <el-menu-item index="/admin/statistics">
-          <el-icon><data-line /></el-icon>
-          <span>数据统计</span>
+          <el-icon><Histogram /></el-icon>
+          <span>统计信息</span>
+        </el-menu-item>
+        <el-menu-item index="/admin/config">
+          <el-icon><Setting /></el-icon>
+          <span>系统配置</span>
         </el-menu-item>
       </el-menu>
     </el-aside>

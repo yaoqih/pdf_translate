@@ -13,3 +13,4 @@ PyPDF2
 pymysql
 cryptography
 psycopg2
+pdf2zh

@@ -2,6 +2,17 @@
   <router-view />
 </template>
 
+<script setup>
+import { onMounted } from 'vue'
+import { useAdminStore } from './stores/admin'
+
+const adminStore = useAdminStore()
+
+onMounted(() => {
+  adminStore.checkAuth()
+})
+</script>
+
 <style>
 html, body {
   margin: 0;

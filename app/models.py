@@ -59,4 +59,14 @@ class PDFFile(Base):
     source_language = Column(Enum(Language), default=Language.EN_TO_ZH)
     
     # 关联关系
-    translation_key = relationship("TranslationKey", back_populates="pdf_files") 
+    translation_key = relationship("TranslationKey", back_populates="pdf_files")
+
+class SystemConfig(Base):
+    __tablename__ = "system_configs"
+
+    id = Column(Integer, primary_key=True, index=True)
+    key = Column(String(255), unique=True, index=True)
+    value = Column(String(1024))
+    description = Column(String(255))
+    created_at = Column(DateTime, default=datetime.utcnow)
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow) 
