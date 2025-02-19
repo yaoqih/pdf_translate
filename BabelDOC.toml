@@ -1,0 +1,12 @@
+[babeldoc]
+# debug = true
+lang-in = "en-US"
+lang-out = "zh-CN"
+qps = 20
+# this is a comment
+# pages = 4
+openai = true
+openai-model = "yi-lightning"
+openai-base-url = "https://api.lingyiwanwu.com/v1"
+openai-api-key = "9b74841dc6f9441ca3e09e700168512e"
+# All other options can also be set in the configuration file.

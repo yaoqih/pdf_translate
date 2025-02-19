@@ -6,7 +6,7 @@ python-jose
 passlib
 bcrypt
 pydantic
-mysqlclient
+# mysqlclient
 python-dotenv
 aiofiles
 PyPDF2
